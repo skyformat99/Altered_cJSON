@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1504540799 source:c:\work\cjson\cjson.c
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1490702416 c:\work\cjson\cjson.h
+	<stddef.h>
+
+1489595857 source:c:\work\cjson\cjson_utils.c
+	"ctype.h"
+	"string.h"
+	"stdlib.h"
+	"stdio.h"
+	"limits.h"
+	"cJSON_Utils.h"
+
+1489429798 c:\work\cjson\cjson_utils.h
+	"cJSON.h"
+
+1504693191 source:c:\work\cjson\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"cJSON_Utils.h"
+

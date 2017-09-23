@@ -1,0 +1,412 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://sisd04.lwsdat.glb.bskyb.com/cbs-sales-interaction-service/v1/interactions/cdea84b0-5835-4fd6-b120-c2c159b6030b"
+    }
+  },
+  "reference": "cdea84b0-5835-4fd6-b120-c2c159b6030b",
+  "status": {
+    "state": "INCOMPLETE",
+    "reasons": [
+      {
+        "code": "interaction.basket.empty",
+        "message": "At least one item must be added to the basket.",
+        "level": "INCOMPLETE"
+      }
+    ]
+  },
+  "configuration": {
+    "catalogue": "MOBILE",
+    "channel": "DEMO",
+    "customerType": "EXISTING",
+    "country": "GBR",
+    "mobileRegradeBillPeriodEndCutoffInterval": "PT2H",
+    "mobileUpgradeBillPeriodWarningInterval": "P5D"
+  },
+  "customer": {
+    "organisation": "SKY",
+    "accountNumber": "621431548604",
+    "partyId": "14882862263984329668042",
+    "identity": {
+      "title": "MR",
+      "firstName": "Core",
+      "lastName": "Test"
+    },
+    "dateOfBirth": "1980-01-01",
+    "email": "testautomation@bskyb.com",
+    "emailPrimary": true,
+    "emailType": "HOME",
+    "mobile": "07973913578",
+    "mobilePrimary": false,
+    "home": "01311234567",
+    "homePrimary": true,
+    "consents": {
+      "telephoneMarketing": "OPTED_IN",
+      "emailMarketing": "OPTED_IN",
+      "postalMarketing": "OPTED_IN",
+      "smsMarketing": "OPTED_OUT"
+    },
+    "accessibility": {
+      "permissionToCapture": false,
+      "summaryCommunicationOnly": false
+    },
+    "security": {
+      "contactPassword": "password",
+      "motherMaidenName": "mother"
+    }
+  },
+  "addresses": [
+    {
+      "houseNumber": "101",
+      "street": "Watermark Street",
+      "town": "Livingston",
+      "postcode": "EH88BA",
+      "countryCode": "GBR",
+      "qasValidated": false,
+      "reference": "9147ed21-1fa5-4f11-b49c-8f0723314e69",
+      "status": "EXISTING"
+    }
+  ],
+  "keyAddresses": {
+    "billingAddressRef": "9147ed21-1fa5-4f11-b49c-8f0723314e69",
+    "deliveryAddressRef": "9147ed21-1fa5-4f11-b49c-8f0723314e69",
+    "installationAddressRef": "9147ed21-1fa5-4f11-b49c-8f0723314e69",
+    "currentAddressRef": "9147ed21-1fa5-4f11-b49c-8f0723314e69",
+    "correspondenceAddressRef": "9147ed21-1fa5-4f11-b49c-8f0723314e69"
+  },
+  "basket": {
+    "bundles": [],
+    "contracts": [],
+    "services": [
+      {
+        "reference": "9a917550-9f62-4849-bce4-b3ef6378887c",
+        "portfolioReference": "66409471-853b-46a9-8b73-efcdaabc6ee0",
+        "status": "EXISTING",
+        "type": "DTV_PRIMARY",
+        "products": [],
+        "bundles": [],
+        "offers": []
+      }
+    ],
+    "summary": {
+      "currency": "GBP",
+      "charges": {
+        "recurring": {
+          "quantity": 0,
+          "amount": 0
+        },
+        "nonRecurring": {
+          "quantity": 0,
+          "amount": 0
+        }
+      },
+      "discounts": {
+        "recurring": {
+          "quantity": 0,
+          "amount": 0
+        },
+        "nonRecurring": {
+          "quantity": 0,
+          "amount": 0
+        }
+      },
+      "upFrontPayment": {
+        "recurring": {
+          "quantity": 0,
+          "amount": 0
+        },
+        "nonRecurring": {
+          "quantity": 0,
+          "amount": 0
+        }
+      },
+      "totals": {
+        "payment": {
+          "recurring": {
+            "amount": 0
+          },
+          "nonRecurring": {
+            "amount": 0
+          }
+        },
+        "billing": {
+          "recurring": {
+            "amount": 0
+          },
+          "nonRecurring": {
+            "amount": 0
+          }
+        }
+      },
+      "redemptions": {
+        "amount": "0GB",
+        "quantity": 0
+      }
+    }
+  },
+  "portfolio": {
+    "services": [
+      {
+        "reference": "66409471-853b-46a9-8b73-efcdaabc6ee0",
+        "instanceIdentifier": "14882862272224329668061",
+        "type": "DTV_PRIMARY",
+        "bundles": [],
+        "products": [
+          {
+            "portfolioProductId": "14882862272304329668092",
+            "inventoryState": "PREACTIVE",
+            "actions": [],
+            "charges": [],
+            "reference": "bef3ae9b-0dc4-4b5c-86ef-d7cd7dae0729",
+            "code": "11645",
+            "displayName": "Sky HD Remote Control (Installed)",
+            "typeClassifications": [
+              "HARDWARE"
+            ]
+          },
+          {
+            "portfolioProductId": "14882862272304329668086",
+            "inventoryState": "PREACTIVE",
+            "actions": [],
+            "charges": [],
+            "reference": "2466a197-3cae-4d41-b226-4d8433657f01",
+            "code": "10137",
+            "displayName": "Viewing Card",
+            "typeClassifications": []
+          },
+          {
+            "portfolioProductId": "14882862272304329668078",
+            "inventoryState": "PREACTIVE",
+            "actions": [],
+            "charges": [
+              {
+                "currency": "GBP",
+                "amount": 0,
+                "recurrence": "MONTHLY"
+              }
+            ],
+            "reference": "f1c9d2eb-8fee-4164-90b6-f2c7a4b12292",
+            "code": "10113",
+            "displayName": "Sky+ Subscription",
+            "typeClassifications": []
+          },
+          {
+            "portfolioProductId": "14882862272304329668066",
+            "inventoryState": "PREACTIVE",
+            "actions": [],
+            "charges": [
+              {
+                "currency": "GBP",
+                "amount": 22,
+                "recurrence": "MONTHLY"
+              }
+            ],
+            "reference": "f1434497-5c48-4cb5-92e6-7c1213c9f30e",
+            "code": "14395",
+            "displayName": "Original",
+            "typeClassifications": []
+          },
+          {
+            "portfolioProductId": "14882862272304329668074",
+            "inventoryState": "PREACTIVE",
+            "actions": [],
+            "charges": [
+              {
+                "currency": "GBP",
+                "amount": 299,
+                "recurrence": "NONE"
+              }
+            ],
+            "reference": "b1d9af8c-036b-4595-ba8d-0177a6e1b69e",
+            "code": "13787",
+            "displayName": "Sky+HD",
+            "typeClassifications": [
+              "HARDWARE"
+            ]
+          }
+        ],
+        "offers": [
+          {
+            "reference": "a1c5eefd-bc3c-4878-a82b-14027dc8c959",
+            "offerId": "77036",
+            "code": "PSP00004",
+            "displayName": "Sky+HD Box Discounted",
+            "status": "PND",
+            "displayStatus": "Pending",
+            "description": "HD additional box for GBP199",
+            "discounts": [
+              {
+                "type": "FIXED_VALUE",
+                "currency": "GBP",
+                "amount": 100,
+                "recurrence": "NON_RECURRING",
+                "linkedProduct": {
+                  "reference": "b1d9af8c-036b-4595-ba8d-0177a6e1b69e",
+                  "effectiveDiscount": 100
+                }
+              }
+            ],
+            "actions": []
+          },
+          {
+            "reference": "98ef1734-c241-41ff-b31c-03b191251bc1",
+            "offerId": "77073",
+            "code": "PSP00021",
+            "displayName": "Box Discount",
+            "status": "PND",
+            "displayStatus": "Pending",
+            "description": "Free HDx Box for New Customers - UK",
+            "discounts": [
+              {
+                "type": "FIXED_VALUE",
+                "currency": "GBP",
+                "amount": 49,
+                "recurrence": "NON_RECURRING",
+                "linkedProduct": {
+                  "reference": "b1d9af8c-036b-4595-ba8d-0177a6e1b69e",
+                  "effectiveDiscount": 49
+                }
+              }
+            ],
+            "actions": []
+          },
+          {
+            "reference": "84c29f7b-c198-480b-8c61-cb5fdff69f49",
+            "offerId": "77038",
+            "code": "PSP00005",
+            "displayName": "Sky+HD Box Discounted",
+            "status": "PND",
+            "displayStatus": "Pending",
+            "description": "HDx New standalone for GBP49",
+            "discounts": [
+              {
+                "type": "FIXED_VALUE",
+                "currency": "GBP",
+                "amount": 150,
+                "recurrence": "NON_RECURRING",
+                "linkedProduct": {
+                  "reference": "b1d9af8c-036b-4595-ba8d-0177a6e1b69e",
+                  "effectiveDiscount": 150
+                }
+              }
+            ],
+            "actions": []
+          }
+        ],
+        "contracts": [
+          {
+            "reference": "123033c2-c868-4285-b56b-f2adc654300f",
+            "code": "DTV_UK_12_V05",
+            "displayName": "DTV UK 12 Months Version 5",
+            "minimumTerm": "P12M"
+          },
+          {
+            "reference": "e7420ffc-eebc-4527-ba34-598850a788a5",
+            "code": "SKY+_UK_12_V02",
+            "displayName": "SKY+ UK 12 Months Version 2",
+            "minimumTerm": "P12M"
+          }
+        ]
+      }
+    ],
+    "products": [],
+    "offers": [],
+    "contracts": [],
+    "accounts": [
+      {
+        "reference": "80d4347e-7109-4c8a-8bca-3c93fc8e6b6f",
+        "number": "621431548604",
+        "type": "CORE"
+      }
+    ],
+    "summary": {
+      "currency": "GBP",
+      "charges": {
+        "recurring": {
+          "quantity": 0,
+          "amount": 0
+        },
+        "nonRecurring": {
+          "quantity": 0,
+          "amount": 0
+        }
+      },
+      "discounts": {
+        "recurring": {
+          "quantity": 0,
+          "amount": 0
+        },
+        "nonRecurring": {
+          "quantity": 0,
+          "amount": 0
+        }
+      },
+      "totals": {
+        "payment": {
+          "recurring": {
+            "amount": 0
+          },
+          "nonRecurring": {
+            "amount": 0
+          }
+        },
+        "billing": {
+          "recurring": {
+            "amount": 0
+          },
+          "nonRecurring": {
+            "amount": 0
+          }
+        }
+      }
+    }
+  },
+  "deliveries": [],
+  "keyFacts": {},
+  "appointments": {
+    "reservations": {}
+  },
+  "profiles": {
+    "riskManagement": {
+      "affordability": {
+        "state": "NOT_REQUIRED"
+      },
+      "fraud": {},
+      "absoluteMaxNumAllowedMobileTariffs": 5,
+      "absoluteMaxNumAllowedHandSets": 10,
+      "actualMaxNumAllowedHandSets": 10
+    },
+    "voiceAndData": {
+      "mandatory": false,
+      "state": "NOT_RUN",
+      "numberPort": {
+        "status": "NOT_RUN"
+      }
+    },
+    "accountHolderVerification": {
+      "status": "NOT_REQUIRED",
+      "attemptsRemaining": 0,
+      "accounts": [
+        {
+          "reference": "2a529011-ac6c-408c-a82f-000ac940508b",
+          "billingAccountNumber": "621431548604",
+          "type": "CARD",
+          "last4CardDigits": "1111",
+          "digitsRequired": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    "igorBalance": {}
+  },
+  "paymentMethods": {
+    "payment": {
+      "method": "NONE"
+    },
+    "billing": {
+      "method": "NONE"
+    }
+  }
+}
